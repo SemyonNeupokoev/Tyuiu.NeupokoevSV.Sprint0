@@ -4,10 +4,11 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        Console.OutputEncoding = Encoding.UTF8;
         Console.WriteLine("Hello, World!");
-        string name = "Семён";
+        string name = "РЎРµРјС‘РЅ";
         int age = 18;
-        Console.WriteLine("Здравствуйте меня зовут " + name + " мне " + age + " лет!");
+        Console.WriteLine("Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ РјРµРЅСЏ Р·РѕРІСѓС‚" + name + " РјРЅРµ " + age + "!");
         Console.ReadKey();
     }
 }
